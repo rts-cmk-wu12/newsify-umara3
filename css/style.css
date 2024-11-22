@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#wrapper {
+  width: 400px;
+  height: 100%;
+  text-align: center;
+}
+
+.auth {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+}
+.auth .auth_img {
+  max-width: 88px;
+  margin-left: 7em;
+  margin-top: 2em;
+}
+.auth .auth_heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 1px;
+  margin-right: 1em;
+  font-family: "Times New Roman", serif;
+  margin-bottom: 1em;
+}
+.auth .auth_text {
+  font-size: 16px;
+  color: #666;
+  gap: 2em;
+}
+.auth .social-login {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 25px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.auth .facebook {
+  background-color: #f8f8f8;
+  color: black;
+}
+.auth .google {
+  background-color: #f8f8f8;
+  color: black;
+}
+.auth .facebook:hover {
+  background-color: #e7e7e7;
+}
+.auth .google:hover {
+  background-color: #e7e7e7;
+}
+.auth .auth_separator {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  padding-bottom: 3em;
+}
+.auth .auth_separator .line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+.auth .auth_separator .or {
+  margin: 0 10px;
+  color: #666;
+}
+.auth .password-login {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.auth .password-login:hover {
+  background-color: #45a049;
+}
+.auth .signup-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  margin-left: 3em;
+}
+.auth .signup-text a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.auth .signup-text a:hover {
+  text-decoration: underline;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.logo {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  text-align: center;
+  /*height: 100%;*/
+}
+.logo .logo_img {
+  /* display: flex;*/
+  /* justify-content: center;
+   text-align: center;*/
+  align-items: center;
+  margin-left: 8em;
+  margin-top: 13em;
+  width: 78px;
+}
+.logo .logo_img--logo2 {
+  align-items: center;
+  margin-left: 6em;
+  margin-top: 10em;
+  width: 174px;
+}
+.logo .logo_heading {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.onboard_img {
+  width: 392px;
+  height: 393px;
+}
+
+.onboard_heading {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.swap {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 0.5em;
+}
+.swap .dot {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.swap .first_dot {
+  background-color: #3A5F0B;
+  width: 35px;
+}
+
+.onboard_button {
+  display: flex;
+  justify-content: space-evenly;
+}
+.onboard_button .skip_button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.onboard_button .continue_button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.onboard_button .skip_button {
+  color: #3A5F0B;
+  border-color: #3A5F0B;
+  background-color: #fff;
+}
+.onboard_button .continue_button {
+  color: #fff;
+  background-color: #3A5F0B;
+}/*# sourceMappingURL=style.css.map */
